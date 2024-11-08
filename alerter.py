@@ -5,7 +5,7 @@ class Alerter:
         """
         Initialize the Alerter with a target URL, topic for notifications, and silence period.
         
-        :param url: The base URL of the notification service (e.g., "https://ntfy.ok1cyc.net:8031")
+        :param url: The base URL of the notification service (e.g., "https://ntfy.xxxx.xx:nnnn")
         :param topic: The topic to post alerts to (e.g., "ham")
         :param silence_period: The number of minutes to increase the timestamp after sending an alert
         """
