@@ -4,7 +4,7 @@ import re
 class QRZChecker:
     def __init__(self):
         # Initialize the lookup library only once when the instance is created
-        self.lookuplib = LookupLib(lookuptype="qrz", username="ok1cyc", pwd="swlamigo")
+        self.lookuplib = LookupLib(lookuptype="qrz", username="ok1cyc", pwd="xxxx")
         self.callinfo = Callinfo(self.lookuplib)
 
     def get_all(self, callsign):
