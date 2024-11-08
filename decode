@@ -1,0 +1,19 @@
+adbccbda0000000200000002000000044a544458010464448000000005000000000000000000000564000000017e00000011485a3144532045413746504720494d36360000
+---key--*schema*+decode+*idsize***id****nw**time**++snr+++******dt********+++df+++*modesz*.~+msgsz++***********message****************lcoa
+
+
+adbccbda0000000200000002000000044a5444580104644480fffffff1bfb99999a000000000000478000000017e000000115749394420464a2f4b34484746202d30310000
+
+
+
+Decode        Out       2                      quint32
+ *                         Id (unique key)        utf8
+ *                         New                    bool
+ *                         Time                   QTime
+ *                         snr                    qint32
+ *                         Delta time (S)         float (serialized as double)
+ *                         Delta frequency (Hz)   quint32
+ *                         Mode                   utf8
+ *                         Message                utf8
+ *                         Low confidence         bool
+ *                         Off air                bool
